@@ -1,0 +1,17 @@
+start：app.py--创建网络环境。
+api: https://spotipy.readthedocs.io/en/2.21.0/
+callback： https://example.com/callback
+Client ID：f31a7c72307a45709e93f8aef8d6eefd
+APP Name：text_mining_App
+
+收集数据：Spotify--spo_music_data.py
+
+数据清洗：重复，缺失，数值转换。
+
+数据分析：用户偏好，趋势，行为。
+
+数据挖掘：音乐数据潜在规律，是否可以为商业决策提供帮助。
+ngrok：
+ngrok config add-authtoken <token>
+ngrok http 8888
+
